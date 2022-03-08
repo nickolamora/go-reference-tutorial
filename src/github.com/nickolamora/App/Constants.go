@@ -14,7 +14,7 @@ const (
 	B string = "else"
 )
 
-//iota is an incrementer  So essentially it can be used to create effective constant in Go .
+//iota is an incrementer used for enumerated constants. So essentially it can be used to create effective constant in Go .
 const (
 	a = iota
 	// used to skip a value
