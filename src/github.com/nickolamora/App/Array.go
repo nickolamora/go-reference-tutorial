@@ -34,7 +34,7 @@ func main() {
 
 	//slicing an array
 	a := [...]int{1, 2, 3, 4, 5}
-	b := a[1:2]
+	b := a[1:3]
 	c := a[:len(a)-1]
 	fmt.Printf("Amount: %v\n", b)
 	fmt.Printf("Amount: %v\n", c)
