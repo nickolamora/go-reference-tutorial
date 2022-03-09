@@ -37,6 +37,6 @@ func main() {
 	fmt.Println(z)
 	//append data of x to y and put it in z (can use spread ... to get the values)
 	var r []int = append(y, x...)
-	fmt.Println(r)
+	fmt.Printf("%v, %T\n\n", r, r)
 
 }
