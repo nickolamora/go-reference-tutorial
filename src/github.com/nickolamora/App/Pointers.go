@@ -33,4 +33,22 @@ func main() {
 	foo.bar = 65
 	fmt.Println((*foo).bar)
 
+	fmt.Println("================")
+	/**
+	This is when to or why use pointers in these situations
+	1. Are good when you have a large chunk of data so that the only thing you’re passing around is the address of that struct
+	2. Another way is when you need to change something that’s at a certain location
+	*/
+	x := 0
+
+	fmt.Println("x before ", x)
+	pointerTest(&x)
+	fmt.Println("x after ", x)
+}
+
+func pointerTest(y *int) {
+	fmt.Println(y)
+	//the value of the address of y, change it to 43
+	*y = 43
+	fmt.Println(y)
 }

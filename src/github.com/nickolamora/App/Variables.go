@@ -20,7 +20,7 @@ func main() {
 
 	anIntVariable := 60
 	anotherVariable := anIntVariable
-	//Print out the value and the of a variable
+	//Print out the value and the of a variablev
 	fmt.Printf("%v, %T\n\n", anIntVariable, anIntVariable)
 	fmt.Printf("%v, %T\n\n", anotherVariable, anotherVariable)
 
